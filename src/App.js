@@ -58,6 +58,7 @@ const App = () => {
             defaultChecked={chk1}
           />
           <label className='label'>checkbox 1</label>
+          <label className='label2'>{`In state = ${formData.chk1}`}</label>
         </div>
 
         <div className='checkbox-container'>
@@ -69,6 +70,7 @@ const App = () => {
             defaultChecked={chk2}
           />
           <label className='label'>checkbox 2</label>
+          <label className='label2'>{`In state = ${formData.chk2}`}</label>
         </div>
 
         <div className='checkbox-container'>
@@ -80,6 +82,7 @@ const App = () => {
             defaultChecked={chk3}
           />
           <label className='label'>checkbox 3</label>
+          <label className='label2'>{`In state = ${formData.chk3}`}</label>
         </div>
 
         <div className='checkbox-container'>
@@ -91,6 +94,7 @@ const App = () => {
             defaultChecked={chk4}
           />
           <label className='label'>checkbox 4</label>
+          <label className='label2'>{`In state = ${formData.chk4}`}</label>
         </div>
 
         <div className='checkbox-container'>
@@ -102,6 +106,7 @@ const App = () => {
             defaultChecked={chk5}
           />
           <label className='label'>checkbox 5</label>
+          <label className='label2'>{`In state = ${formData.chk5}`}</label>
         </div>
 
         <div className='checkbox-container'>
@@ -113,6 +118,7 @@ const App = () => {
             defaultChecked={chk6}
           />
           <label className='label'>checkbox 6</label>
+          <label className='label2'>{`In state = ${formData.chk6}`}</label>
         </div>
 
         <div className='checkbox-container'>
@@ -124,6 +130,7 @@ const App = () => {
             defaultChecked={chk7}
           />
           <label className='label'>checkbox 7</label>
+          <label className='label2'>{`In state = ${formData.chk7}`}</label>
         </div>
 
         <div className='checkbox-container'>
@@ -135,6 +142,7 @@ const App = () => {
             defaultChecked={chk8}
           />
           <label className='label'>checkbox 8</label>
+          <label className='label2'>{`In state = ${formData.chk8}`}</label>
         </div>
 
         <div className='checkbox-container'>
@@ -146,6 +154,7 @@ const App = () => {
             defaultChecked={chk9}
           />
           <label className='label'>checkbox 9</label>
+          <label className='label2'>{`In state = ${formData.chk9}`}</label>
         </div>
 
         <div className='checkbox-container'>
@@ -157,6 +166,7 @@ const App = () => {
             defaultChecked={chk10}
           />
           <label className='label'>checkbox 10</label>
+          <label className='label2 adjust'>{`In state = ${formData.chk10}`}</label>
         </div>
 
         <button>Submit</button>
