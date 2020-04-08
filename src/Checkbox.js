@@ -19,44 +19,6 @@ const Checkbox = (props) => {
   //Create the JSX for the form and the checkboxes.
   //The trick is to use the name attribute as the link to the formData object
   //and the defaultChecked attribute.
-  return (
-    <section className='section-container'>
-      <form className='form' onSubmit={(e) => onSubmit(e)}>
-        <div className='checkbox-container'>
-          <input
-            className='checkbox'
-            type='checkbox'
-            name='chk1'
-            onClick={(e) => checkboxClick(e)}
-            defaultChecked={data.chk1}
-          />
-          <label className='label'>checkbox 1</label>
-          <label className='label2'>{`In state = ${data.formData.chk1}`}</label>
-        </div>
-
-        <div className='checkbox-container'>
-          <input
-            className='checkbox'
-            type='checkbox'
-            name='chk2'
-            onClick={(e) => checkboxClick(e)}
-            defaultChecked={data.chk2}
-          />
-          <label className='label'>checkbox 2</label>
-          <label className='label2'>{`In state = ${data.formData.chk2}`}</label>
-        </div>
-
-        <div className='checkbox-container'>
-          <input
-            className='checkbox'
-            type='checkbox'
-            name='chk3'
-            onClick={(e) => checkboxClick(e)}
-            defaultChecked={data.chk3}
-          />
-          <label className='label'>checkbox 3</label>
-          <label className='label2'>{`In state = ${data.formData.chk3}`}</label>
-        </div>
 
         <div className='checkbox-container'>
           <input
